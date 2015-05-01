@@ -1,6 +1,6 @@
 # Docker Base Image RVM preinstalled
 
-![tzenderman/docker-rvm](http://dockeri.co/image/tzenderman/docker-rvm)
+[![tzenderman/docker-rvm](http://dockeri.co/image/tzenderman/docker-rvm)](https://registry.hub.docker.com/u/tzenderman/docker-rvm/)
 
 Super easy to use & lightweight Docker image that comes with RVM for managing ruby versions. Docker Hub Link: https://registry.hub.docker.com/u/tzenderman/docker-pyenv-rvm-nvm/
 
