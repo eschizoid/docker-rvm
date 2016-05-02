@@ -1,6 +1,7 @@
 # Dockerfile used to build base image for projects using Python, Node, and Ruby.
-FROM phusion/baseimage:0.9.18
-MAINTAINER Jonathan Peffer <jpeffer.developer@gmail.com>
+FROM armhfbuild/phusion-baseimage:0.9.16
+MAINTAINER Mariano Gonzalez <mariano.gonzalez.mx@gmail.com>
+
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     sed -i 's/^mesg n$/tty -s \&\& mesg n/g' /root/.profile
 
